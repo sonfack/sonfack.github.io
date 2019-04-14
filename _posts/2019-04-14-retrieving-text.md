@@ -15,9 +15,11 @@ In this post we explore 3 main methods:
 - Boolean models 
 - vector models 
 - probabilistic models   
-#### Textual retrieval methods 
 
-##### Boolean models  
+
+#### Textual retrieval methods   
+  
+##### Boolean models    
 This models are based on boolean algebra. Each document is represented only by it set of indexed terms, no weight is 
 taken in consideration.  
 Every query is formulated using **AND**, **OR**, **NOT**  
@@ -25,7 +27,8 @@ Example :
 Suppose we have nationalities of a given school pare promotions P22, p23, p24, p25.  
 Where 1 indicates the given nationality in the promotion and a 0 the absence of that nationality.  
 A boolean representation will be the term-document *incidence matrix*. 
-![term-document matrix](/retrievingtext/boolean.png)
+![term-document matrix](/retrievingtext/boolean.png)  
+  
 ##### Avantages 
 - Simple to implement
 - Good performance
@@ -38,9 +41,10 @@ We can for example ask:
 P22 : 0 1 1 1 0 1 0, P23 : 0 1 1 1 1 0 1, P24 : 0 1 1 1 1 0 1   
 **Query** : 0 1 1 1 0 1 0 **AND** 0 1 1 1 1 0 1 **AND** 0 1 1 1 1 0 1 = 0 0 1 0 0 0 0  
 *Query* is what the user conveys to the computer in an attempt to communicate the information need.
-Answer : Guinea 
- 
+Answer : Guinea   
+     
 ##### Draw backs 
 - Boolean queries are difficult to conceive for non experts
 - No partial matching 
-- No indexed terms weight
+- No indexed terms weight  
+  
