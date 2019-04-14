@@ -25,7 +25,7 @@ Example :
 Suppose we have nationalities of a given school pare promotions P22, p23, p24, p25.  
 Where 1 indicates the given nationality in the promotion and a 0 the absence of that nationality.  
 A boolean representation will be the term-document *incidence matrix*. 
-![term-document matrix](/retrievingtext/boolean.jpg){:width="10%"}
+![term-document matrix](/retrievingtext/boolean.png)
 ###### Avantages 
 - Simple to implement
 - Good performance
