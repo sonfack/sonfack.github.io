@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Modèle d'espace vectoriel textual"
+title: "Modèle d'espace vectoriel textuel"
 ---
 Salut à tous et bienvenus sur ce nouveau post qui présente des modèles vectoriels textuels.   
 
-### Modèle d'espace vectoriel textual      
+### Modèle d'espace vectoriel textuel      
   
 Source :**[ From Frequency to Meaning: Vector Space Models of Semantics Peter D. Turney et al.]**    
 L'idée de **VSM(Vector Space Models)** est de représenter les documents comme point dans l'espace (un vecteur dans l'espacd). 
